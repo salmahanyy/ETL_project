@@ -1,0 +1,12 @@
+CREATE TABLE `user` (
+    `id` int NOT NULL,
+    `name` varchar(255) NOT NULL
+    `username` varchar(255) NOT NULL
+    `email` varchar(255) NOT NULL
+    `street` varchar(255) DEFAULT NULL
+    `suite` varchar(255) DEFAULT NULL
+    `city` varchar(255) DEFAULT NULL 
+    `zipcode` varchar(20) DEFAULT NULL 
+    `phone` varchar(255) DEFAULT NULL  
+    `website` varchar(255) DEFAULT NULL
+    `company_name` varchar(255) DEFAULT NULL)
