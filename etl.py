@@ -62,6 +62,3 @@ for _, row in users_df.iterrows():
 conn.commit()
 cursor.close()
 conn.close()
-
-
-
